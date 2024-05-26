@@ -1,0 +1,132 @@
+ *{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Gilroy';
+ }
+ 
+ html, body {
+ height: 100%;
+ width: 100%;
+ }
+ 
+ body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQejsyMYZ5GKud8iK1cWl0sskKqyxK3uVihrlQq3IiGYBxlK8jL9Sam72aPaiV6QY6FLgY&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    user-select: none;
+}
+
+.loginPage{
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border: 1px , solid, transparent;
+    box-shadow: inset 5px 5px 15px rgb(167, 94, 167),
+                inset -5px -5px 15px rgb(183, 115, 183);
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+    margin: 20px;
+}
+.inputbox{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+    padding-right: 75px;
+}
+.inputbox input{
+    width: 280px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    user-select: none;
+    border-radius: 10px;
+}
+.inputbox i{
+    position: absolute;
+    right: 22%;
+    top: 26%;
+    color: rgb(93, 80, 80);
+    font-size: 20px;
+}
+.password{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding-right: 40px;
+}
+.password input{
+    width: 280px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.password i{
+    position: absolute;
+    right: 22%;
+    top: 46%;
+    color: rgb(94, 85, 85);
+    font-size: 20px;
+}
+
+.remember-forgot{
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    
+    
+}
+.remember-forgot a{
+    position: absolute;
+    right: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.remember-forgot label{
+    font-size: 18px;
+    margin-left: 40px;
+}
+.remember-forgot input{
+    height:18px;
+    width: 18px;
+}
+
+.btn{
+    width: 270px;
+    height: 40px;
+    text-align: center;
+    margin-left: 15%;
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 5px 5px 15px rgb(117, 63, 112),
+                inset -5px -5px 15px rgb(117, 63, 112),
+                5px 5px 15px rgb(117, 63, 112);
+}
+.register-link{
+    font-size: 17px;
+    margin-left: 20%;
+    margin-top: 20px;
+    font-weight: 900;
+
+}
+.register-link a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
