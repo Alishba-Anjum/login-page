@@ -16,11 +16,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQejsyMYZ5GKud8iK1cWl0sskKqyxK3uVihrlQq3IiGYBxlK8jL9Sam72aPaiV6QY6FLgY&usqp=CAU");
+    background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     user-select: none;
+    background-color: rgba(0,0,0,1);
 }
 
 .loginPage{
